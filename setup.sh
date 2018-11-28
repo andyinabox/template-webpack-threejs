@@ -8,6 +8,8 @@ read -p "What is the name of your new project? (kabab-case): " name
 
 sed -i '' "s/$TEMPLATE_NAME/$name/g" package.json
 sed -i '' 's/^\s+"setup": "\.\/setup\.sh",$//g' package.json
+echo $name > README.md
+
 rm -rf ./.git
 git init
 yarn install
