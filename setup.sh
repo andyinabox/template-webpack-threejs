@@ -1,6 +1,6 @@
 #!/bin/bash
 
-TEMPLATE_NAME="webpack-threejs-template"
+TEMPLATE_NAME="template-webpack-threejs"
 
 read -p "What is the name of your new project? (kabab-case)" name
 
