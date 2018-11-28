@@ -22,7 +22,7 @@ export default class App {
     this.params = Object.assign({}, _default_params, params);
     this.opts = Object.assign({}, _default_options, options);
 
-    // this.app =  new OrbitControls(camera, renderer.domElement)
+    // this.app =  new OrbitControls(camera, rendstatuserer.domElement)
     this.geo = new THREE.TetrahedronGeometry();
     this.mat = new THREE.MeshBasicMaterial();
     this.mesh = new THREE.Mesh(geo, mat);
