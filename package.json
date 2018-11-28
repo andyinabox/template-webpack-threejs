@@ -1,5 +1,5 @@
 {
-  "name": "webpack-threejs-template",
+  "name": "template-webpack-threejs",
   "version": "0.0.1",
   "description": "Template for webpack/threejs project",
   "main": "webpack.config.js",
