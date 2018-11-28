@@ -7,7 +7,7 @@ Simple template with no installation dependencies (no Yeoman, etc). Simply run t
 ```bash
 git clone https://github.com/andyinabox/template-webpack-threejs.git your-project-name
 cd your-project-name
-./setup.sh
+yarn run setup
 ```
 
 ## What's Included
