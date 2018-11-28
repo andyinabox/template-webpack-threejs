@@ -1,12 +1,13 @@
 {
-  "name": "grid-shelf-proto",
+  "name": "webpack-threejs-template",
   "version": "0.0.1",
-  "description": "Grid Shelf prototype",
+  "description": "Template for webpack/threejs project",
   "main": "webpack.config.js",
   "scripts": {
+    "setup": "./setup.sh",
     "start": "webpack-dev-server",
     "build": "webpack",
-    "deploy": "npm run build; gh-pages -d dist"
+    "deploy": "npm run build; gh-pages -d dist",
   },
   "devDependencies": {
     "@babel/core": "^7.1.6",
